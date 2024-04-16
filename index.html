@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Intellidev Consulting</title>
+	<link rel="icon" type="image/x-icon" href="assets\logo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -44,10 +45,10 @@
 								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item active">
-								<a class="nav-link" href="#">About</a>
+								<a class="nav-link" href="#about">About</a>
 							</li>
 							<li class="nav-item active">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#contact">Contact</a>
 							</li>
 
 						</ul>
@@ -65,26 +66,24 @@
 		<div class="main_content container">
 			<div class="row">
 				<div class="col-md-11 slogan-container">
-					<h5 class="text-uppercase ">committed to success</h5>
+					<h5 class="text-uppercase slogan-header">committed to success</h5>
 					<h2 class="slogan">Science-driven advice with proven track-record in advancing drugs to market.</h1>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iure, officia esse dolor possimus ipsum eveniet officiis porro magnam culpa?
-					</p>
-					<button class="btn btn-lg btn_style text-uppercase animate_btn">
-						our services
+					<button class="btn btn-lg btn_style text-uppercase animate_btn " onclick="location.href='#services'">
+						services
 					</button>
 				</div>
 			</div>
-			
 		</div>		
 	</div>
 
 	<!-- ********services******** -->
 
-	<div class="services bg-light">
+	<div id="services" class="services bg-light">
 		<div class="container">
-			<h1>Our Services</h1>
-			<div class="row">
+			<h1 class="mb-5">Services</h1>
+			<h5 class="text-uppercase">Drug Development
+			</h5>
+			<div class="row services-list mb-5">
 				<div class="col-md-4">
 					<div class="card">
 						<div class="card-body">
@@ -119,6 +118,37 @@
 						</div>
 					</div>
 				</div>
+				
+				
+			</div>
+
+			<h5 class="text-uppercase">BUSINESS DEVELOPMENT
+			</h5>
+			<div class="row services-list mb-5">
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<div><i class="fa fa-cogs fa-5x" aria-hidden="true"></i>
+							</div>
+							<h4>strategy planning</h4>
+							<p> There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<div><i class="fa fa-object-group fa-5x " aria-hidden="true"></i>
+							</div>
+							<h4>Insurance Service</h4>
+							<p> There are many variations of passages of lorem Ipsum available but the new majority have suffered.
+
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
 			</div>
 		</div>
 	</div>
@@ -126,7 +156,7 @@
 	<!-- *********      TOP SERVICES 	***********-->
 
 
-	<div class="top_services ">
+	<div class="top_services " id="about">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6"><img class="portrait" src="assets\Gail_McIntyre_Portrait-012.jpg" alt=""></div>
@@ -147,11 +177,17 @@
 						</h4>
 						<h4 class="text-white">Board Certified Toxicologist
 						</h4>
-						<p class="mt-5 text-light">Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt moll.
-							Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt moll.
-							Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt moll.
-							Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt moll.
-
+						<p class="mt-5 text-light">Gail McIntyre, Ph.D., is a distinguished biopharmaceutical executive with over 30 years of experience,
+							including roles at Aravive, Meryx, Furiex Pharmaceuticals, Pharmaceutical Product Development (PPD)
+							LLC and IntelliDev Consulting. She has led the development and licensing of multiple drugs, including
+							Nesina™, Priligy®, and Viberzi®. She played a pivotal role in the $1.1B acquisition of Allergan in 2014
+							and successfully negotiated with Controlled Substances Staff on scheduling for Viberzi® which resulted in
+							payment of a CVR. Most recently, Dr. McIntyre served as Aravive’s Chief Executive Officer, Chief
+							Scientific Officer and head of R&amp;D over a 7-year period and led the development of batiraxcept from
+							discovery through the Phase 3 pivotal studies and negotiated the licensing of batiraxcept to a company in
+							China. Dr. McIntyre&#39;s expertise spans various therapeutic areas and modalities, and she is board-certified
+							in toxicology and Clinical Pathology. She holds a B.A. in Biology from Merrimack College and M.S. and
+							Ph.D. degrees in Biochemistry and Biophysics from the University of North Carolina at Chapel Hill.
 						</p>
 
 						<button class="btn btn-lg btn_style text-uppercase animate_btn mt-5">
@@ -168,7 +204,7 @@
 
 	<!--         FEATURED CASE STUDY        -->
 
-	<div class="featured services bg-light">
+	<!-- <div class="featured services bg-light">
 		<div class="container">
 			<h5>OUR PORTFOLIOS OF CASES
 			</h5>
@@ -227,6 +263,32 @@
 
 
 		</div>
+	</div> -->
+
+	<div id="contact" class="phase-contact">
+		<h1 class="mb-5">Help Us Help You</h1>
+		<form action="/action_page.php" method="post" class="contact-form">
+			<div class="form-group contact-field">
+				<input type="name" class="form-control" id="name"  placeholder="Name">
+			</div>
+			<div class="form-group contact-field">
+				<input type="phoneNumber" class="form-control" id="phoneNumber"  placeholder="Phone Number">
+			</div>
+			<div class="form-group contact-field">
+				<input type="email" class="form-control" id="email" placeholder="Email Address">
+			</div>
+			<div class="form-group contact-field">
+				<input type="text" class="form-control" id="company" placeholder="Company Name">
+			</div>
+			<div class="form-group contact-field">
+				<textarea type="text" class="form-control" id="subject" placeholder="Your inquiry" rows="6"></textarea> 
+			</div>
+			<div class="form-group contact-field">
+				<label for="leadSource">How did you hear about us?</label>
+				<input type="text" class="form-control" id="leadSource" placeholder="Referral, LinkedIn, etc...">
+			</div>
+			<button type="button" class="btn btn-primary submit-button">Submit</button>
+		</form>
 	</div>
 
 				
